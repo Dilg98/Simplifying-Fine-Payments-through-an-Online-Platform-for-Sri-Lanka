@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="http://localhost/fine_management/settings/police_set.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Admin Settings</title> 
+</head>
+<body>
+    <div class="container">
+        <header>Admin Settings</header>
+
+        <form action="http://localhost/fine_management/settings/admin_set.php" method="post">
+            
+                  <div class="fields">
+                        <div class="input-field">
+                            <label>Change Password</label>
+                            <input type="password" placeholder="Enter your password" name="password" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Confirm Password</label>
+                            <input type="password" placeholder="Re-enter your password" name="confirmpassword" required>
+                        </div>
+                        <button class="nextBtn">
+                        <span class="btnText">Submit</span>
+                        </button>
+                   </div>
+                   <div class="fields">     
+                         <div class="input-field">
+                               <label>Change your phone no</label>
+                               <input type="txt" placeholder="Enter your Phone no" name="phoneno" required>
+                         </div>
+                       
+                        <button class="nextBtn">
+                        <span class="btnText">Submit</span>
+                        </button>
+                    </div>
+                
+                    <div class="fields"> 
+                       <div class="input-field">
+                            <label>Change your email</label>
+                            <input type="txt" placeholder="Enter your Email" name="email" required>
+                       </div>
+                  
+                       <button class="nextBtn">
+                         <span class="btnText">Submit</span>
+                       </button>
+                 </div>
+
+
+
+
+        </form>
+    </div>
+
+   
+</body>
+</html>
