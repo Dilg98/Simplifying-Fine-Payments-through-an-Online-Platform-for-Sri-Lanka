@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Login</title>
+ 
+  <link rel="stylesheet" href="http://localhost/fine_management/login_pages/admin_loginstyle.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.0.7/css/boxicons.min.css">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap">
+</head>
+<body>
+  <div class="wrapper">
+    <form action="admin_login.php" method="POST">
+      <h2>Login</h2>
+      <div class="input-field">
+        <input type="text" name="email" required>
+        <label>
+          <i class='bx bx-user'></i>
+          Enter your Email
+        </label>
+      </div>
+      <div class="input-field">
+        <input type="password" name="password" required>
+        <label>
+          <i class='bx bx-lock'></i>
+          Enter your password
+        </label>
+      </div>
+      <div class="forget">
+        <label for="remember">
+          <input type="checkbox" id="remember">
+          <span>Remember me</span>
+        </label>
+        <a href="#">Forgot password?</a>
+      </div>
+      <button type="submit">Log In</button>
+      <div class="register">
+        <p>Don't have an account? <a href="http://localhost/fine_management/registration/html/adminreg.html">Register</a></p>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
