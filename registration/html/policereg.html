@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="http://localhost/fine_management/registration/css/policereg.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Driver Regisration Form </title> 
+</head>
+<body>
+    <div class="container">
+        <header>Police Officer Registration</header>
+
+        <form action="http://localhost/fine_management/registration/html/save_police_details.php" method="post">
+            <div class="form first">
+               
+                    
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Enter your name" name="name" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Police Officer ID</label>
+                            <input type="text" placeholder="Enter your ID" name="policeid" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Password</label>
+                            <input type="password" placeholder="Enter your Password" name="password" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Re-enter Password</label>
+                            <input type="password" placeholder="Re-enter your Password" name="confirmpassword" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" placeholder="Enter your email" name="email" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mobile Number</label>
+                            <input type="text" placeholder="Enter mobile number" name="mobileno" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Gender</label>
+                            <select name="gender" required>
+                                <option disabled selected>Select gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Others</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Court</label>
+                            <input type="text" placeholder="Enter Court" name="court" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Police Station</label>
+                            <input type="text" placeholder="Enter Police station" name="policestation" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Registered Date</label>
+                            <input type="date" placeholder="Enter registered date" name="registereddate" required>
+                        </div>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="signupCheck" required />
+                        <label for="signupCheck">I accept all terms & conditions</label>
+                     </div>
+                    <button class="nextBtn">
+                        <span class="btnText">Submit</span>
+                        
+                    </button>
+                
+            </div>
+              
+        </form>
+    </div>
+
+    <script src="http://localhost/fine_management/registration/js/policereg.js"></script>
+</body>
+</html>
